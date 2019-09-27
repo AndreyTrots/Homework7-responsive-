@@ -105,7 +105,7 @@ body {
   align-items: center
 }
 .nav-logo {
-	padding-top: 35px;
+	
 }
 .nav-list {
 	float: right;
@@ -585,6 +585,7 @@ input {
 }
 .new__form span {
 	float: right;
+	display: block;
 }
 textarea {
 	width: 971px;

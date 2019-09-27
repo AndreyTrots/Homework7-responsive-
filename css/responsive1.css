@@ -14,10 +14,12 @@
 	.flex-header,
 	.footer-info,
 	.flex-list,
-	.article,
-	{
+	.article{
 		width: 100%;
 		
+	}
+	body {
+		min-width: 320px;
 	}
 }
 
@@ -50,5 +52,35 @@
 	.article p {
 		width: 100%;
 		margin: auto;
+	}
+}
+@media screen and (max-width: 1002px) {
+	.checkbox {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 10px;
+
+	}
+	.form-content {
+		margin-bottom: 10px;
+	}
+	.form-content,
+	.checkbox,
+	.new__form,
+
+	fieldset,
+	input,
+	button,
+	textarea
+	{
+		width: 100%;
+	}
+	.first-line input {
+		width: 50%;
+		float: none;
+		display: block;
+	}
+	.new__form span {
+		width: 50%;
 	}
 }
