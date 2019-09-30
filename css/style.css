@@ -412,7 +412,6 @@ body {
 }
 
 .form-content{
-	
 	width: 971px;	
 	height: 50px;
 	margin: auto;
@@ -429,7 +428,7 @@ body {
 	margin: auto;
 }
 form {
-	width: 471px;
+	
 }
 .checkbox p,
 .radiobutton p {
@@ -570,10 +569,14 @@ form {
 	height: 391px;
 	margin: auto;
 }
-input {
+.first-line {
+	width: 971px;
+	display: flex;
+	justify-content: space-between;
+}
+.first-line input {
 	width: 471px;
 	height: 50px;
-	float: left;
 	margin-bottom: 20px;
 	background: #ffe600;
 	border: none;
@@ -582,11 +585,12 @@ input {
 #subject {
 	width: 971px;
 	height: 50px;
+	margin-bottom: 20px;
+	background: #ffe600;
+	border: none;
+	padding-left: 22px;
 }
-.new__form span {
-	float: right;
-	display: block;
-}
+
 textarea {
 	width: 971px;
 	height: 180px;

@@ -14,13 +14,15 @@
 	.flex-header,
 	.footer-info,
 	.flex-list,
-	.article{
+	.article
+	.new__form{
 		width: 100%;
 		
 	}
 	body {
 		min-width: 320px;
 	}
+	
 }
 
 @media screen and (max-width: 1200px) {
@@ -31,7 +33,7 @@
 	.slicknav_menu {
 		display:block;
 	}
-	
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -41,8 +43,20 @@
 	.flex-list ul{
 		display: flex;
 		flex-direction: row;
-
 	}
+	.nav-logo {
+		margin: auto;
+	}
+	.portfolio {
+		padding-top: 50px;
+	}
+	.flex-header {
+		padding-bottom: 70px;
+	}
+	.footer-content p {
+		padding-left: 20px;
+	}
+	
 }
 @media screen and (max-width: 1150px){
 	.section,
@@ -52,35 +66,82 @@
 	.article p {
 		width: 100%;
 		margin: auto;
+
+	}
+	.about__us {
+		padding-top: 50px;
+	}
+	.section p {
+		padding-bottom: 50px;
+	}
+	.section h1 {
+		padding-left: 30px;
 	}
 }
 @media screen and (max-width: 1002px) {
-	.checkbox {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 10px;
-
-	}
 	.form-content {
 		margin-bottom: 10px;
 	}
-	.form-content,
-	.checkbox,
 	.new__form,
-
-	fieldset,
-	input,
-	button,
-	textarea
+	#subject,
+	textarea,
+	.button,
+	.first-line,
+	.form-content,
+	.checkbox
 	{
 		width: 100%;
 	}
 	.first-line input {
-		width: 50%;
-		float: none;
-		display: block;
+		width: 100%;
 	}
-	.new__form span {
-		width: 50%;
+	.first-line div {
+		width: 48%;
+	}
+	.form-block {
+		padding: 10px;
+	}
+
+}
+@media screen and (max-width: 680px) {
+	.slogan p {
+		font-size: 30px;
+	}
+	.explore a {
+		width: 160px;
+		height: 57px;
+	}
+	.explore {
+		margin-top: 80px;
+	}
+	.info strong {
+		font-size: 20px;
+	}
+	
+
+}
+@media screen and (max-width: 640px) {
+	.checkbox p, .radiobutton p {
+		padding-right: 0;
+	}
+	.flex-list {
+		width: 100%;
+	}
+	.flex-list ul {
+		justify-content: space-around;
+	}
+	.clients-block {
+		flex-direction: column;
+	}
+	.clients-block img {
+		padding-top: 10px;
+	}
+	.clients-flex {
+		margin-top: -90px;
+	}
+}
+@media screen and (max-width: 540px) {
+	.slogan p {
+		font-size: 25px;
 	}
 }
